@@ -7,3 +7,4 @@ compose.up:
 
 container.exec:
 	docker exec -it $(DOCKER_CONTAINER_NAME) bash
+
