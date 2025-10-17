@@ -1,0 +1,30 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# IDE and Editor specific
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# Build artifacts and logs
+dist/
+build/
+*.log
+tmp/
+
+# Version control
+.git/
+.gitignore
+
+# Docker specific (optional, as Docker needs these for building)
+# Dockerfile
+# .dockerignore

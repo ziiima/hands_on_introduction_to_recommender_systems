@@ -1,0 +1,10 @@
+services:
+  chapter5_service:
+    container_name: chapter5_container
+    build:
+      context: .
+      dockerfile: dockerfile
+    volumes:
+      - ./:/usr/app
+    tty: true
+    restart: on-failure:3
